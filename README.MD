@@ -47,6 +47,9 @@
       </ul>
     </li>
     <li><a href="#getting-started">Getting Started</a></li>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
     <li><a href="#features">Features</a></li>
     <li><a href="#usage">Usage</a></li>
       <ul>
@@ -92,18 +95,42 @@
 
 You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrender.com/api-docs/">here</a>. Please note that the app is being hosted on Render and may take around a minute or more to spin up. To run locally, skip <a href="#installation>here</a>
 
+### Installation
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+5. Change git remote url to avoid accidental pushes to base project
+   ```sh
+   git remote set-url origin github_username/repo_name
+   git remote -v # confirm the changes
+   ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FEATURES -->
 ## Features
 
-### User Authentication:
+#### User Authentication:
 - Register a new user with a name, email, and password (hashed using bcrypt).
 - Login with email and password to receive a JSON Web Token (JWT) for authenticated access.
 
-### Job Management:
+#### Job Management:
 - Create, read, update, and delete job listings.
 - All job-related endpoints require a valid JWT for access.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage

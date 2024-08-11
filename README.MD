@@ -53,8 +53,8 @@
     <li><a href="#features">Features</a></li>
     <li><a href="#usage">Usage</a></li>
       <ul>
-        <li><a href="#pinterest-users">Pinterest Users</a></li>
-        <li><a href="#non-pinterest-users">Non-Pinterest Users</a></li>
+        <li><a href="#auth-endpoints">Auth Endpoints</a></li>
+        <li><a href="#job-endpoints-requires-jwt">Job Endpoints (Requires JWT)</a></li>
       </ul>
     <li><a href="#how-it-works">How it Works</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -93,7 +93,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrender.com/api-docs/">here</a>. Please note that the app is being hosted on Render and may take around a minute or more to spin up. To run locally, skip <a href="#installation">here</a>
+You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrender.com/api-docs/">here</a>. Please note that the app is being hosted on Render and may take around a minute or more to spin up. To run locally, skop to installation.
 
 ### Installation
 
@@ -115,10 +115,9 @@ You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrende
    ```
    The JWT_LIFETIME is how long the token will be valid for and can be set to values such as '30d' (30 days). Refer to json-web-token <a href="https://www.npmjs.com/package/jsonwebtoken#:~:text=expiresIn%3A%20expressed%20in%20seconds%20or%20a%20string%20describing%20a%20time%20span%20vercel/ms">documentation</a> for more info.
 
-4. Change git remote url to avoid accidental pushes to base project
+4. Run the project
    ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+   npm start
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -139,20 +138,20 @@ You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrende
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-### Pinterest Users
-If you have a Pinterest account with boards, simply click on the Get Started button on the homepage. 
-* **Connect & Sync:** Link your Pinterest account to SongBoard effortlessly.
-* **Discover & Inspire:** Choose any board filled with your favorite pins and let our app analyze the images.
-* **Play & Enjoy:** Receive a curated playlist that matches the mood, theme, and vibe of your board.
-  
-_The songs are embedded from Spotify's API meaning you can save the songs to your account as well!_  
-<br />
+Once the server is running, you can use the following endpoints:
 
-### Non-Pinterest Users
-Still want to try out SongBoard but don't have a Pinterest account? Navigate to the <a href="https://songboard-front-end.vercel.app/demo">Demo</a> page of the website and type in the URLs of the images you want to base your playlist off of.
-#### Note
-* The URLs must be separated by spaces e.g. `https://image1.jpg https://image2.jpg`.
-* The URLs must point to valid images hosted on the web.
+### Auth Endpoints
+
+- POST /api/v1/auth/register: Register a new user and receive a JSON Web Token (JWT).
+- POST /api/v1/auth/login: Login and receive a JWT.
+
+### Job Endpoints (Requires JWT)
+
+- GET /api/v1/jobs: Get all jobs for the authenticated user.
+- GET /api/v1/jobs/:id: Get a single job by ID.
+- POST /api/v1/jobs: Create a new job.
+- PATCH /api/v1/jobs/:id: Update an existing job by ID.
+- DELETE /api/v1/jobs/:id: Delete a job by ID.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

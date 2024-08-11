@@ -106,10 +106,15 @@ You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrende
    npm install
    ```
 3. Set up environment variables:
+
   Create a .env file in the root of the project with the following variables:
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+  ```ini
+  MONGO_URI=your_mongodb_uri
+  JWT_SECRET=your_jwt_secret
+  JWT_LIFETIME=your_jwt_lifetime
+  ```
+
+  The JWT_LIFETIME is how long the token will be valid for and can be set to values such as '30d' (30 days). Refer to json-web-token <a href="https://www.npmjs.com/package/jsonwebtoken#:~:text=expiresIn%3A%20expressed%20in%20seconds%20or%20a%20string%20describing%20a%20time%20span%20vercel/ms">documentation</a> for more info.
 4. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin github_username/repo_name

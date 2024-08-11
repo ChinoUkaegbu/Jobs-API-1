@@ -93,7 +93,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrender.com/api-docs/">here</a>. Please note that the app is being hosted on Render and may take around a minute or more to spin up. To run locally, skop to installation.
+You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrender.com/api-docs/">here</a>. Please note that the app is being hosted on Render and may take around a minute or more to spin up. To run locally, skip to <a href="#installation">installation</a>.
 
 ### Installation
 

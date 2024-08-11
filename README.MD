@@ -203,3 +203,5 @@ Project Link: [https://github.com/ChinoUkaegbu/Jobs-API-1](https://github.com/Ch
 [MongoDB-url]: https://www.mongodb.com/
 [Swagger.com]: https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white
 [Swagger-url]: https://swagger.io/
+[Render.com]: https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white
+[Render-url]: https://render.com/

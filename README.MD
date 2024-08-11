@@ -26,7 +26,7 @@
     <a href="https://github.com/ChinoUkaegbu/Jobs-API-1"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://songboard-front-end.vercel.app">View Demo</a>
+    <a href="https://jobs-api-1-9fp1.onrender.com/api-docs">View Demo</a>
     ·
     <a href="https://github.com/ChinoUkaegbu/Jobs-API-1/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -47,6 +47,7 @@
       </ul>
     </li>
     <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#features">Features</a></li>
     <li><a href="#usage">Usage</a></li>
       <ul>
         <li><a href="#pinterest-users">Pinterest Users</a></li>
@@ -66,11 +67,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![SongBoard Screen Shot][product-screenshot]](https://songboard-front-end.vercel.app)
+[![Jobs API Screen Shot][product-screenshot]](https://jobs-api-1-9fp1.onrender.com)
 
-🎵✨ We love to soundtrack our lives...or at least I do. A morning jog by the park with your favorite tunes keeping the rhythm of every step you take. An afternoon cafe run - slow jazz songs in the background amidst the clack of laptop keys. An evening beach trip with friends, synth-filled melodies flowing through the speakers. It feels like you can find a playlist for anything you can type into a search engine - but what if you don't have the words for it?
-
-With SongBoard, you can generate a playlist based on 'vibes' - specifically the vibes of your curated Pinterest boards. Each Pinterest board is a unique reflection of your interests, themes, and aesthetic choice _literally_ hand picked by you. Why not have a playlist that does the same?🎵✨ 
+✨ This is a RESTful API for managing job listings, built using Node.js, Express, and MongoDB. he API provides endpoints for user authentication (register and login) and job management (CRUD operations). It uses JSON Web Tokens (JWT) for secure access to protected endpoints. The project is hosted on Render, and the Swagger UI documentation is available online for testing the endpoints.✨ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,9 +90,20 @@ With SongBoard, you can generate a playlist based on 'vibes' - specifically the 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You can access the web application <a href="https://songboard-front-end.vercel.app/">here</a>. This repository manages the front end and the back end can be found <a href="https://github.com/ChinoUkaegbu/songboard-back-end">here</a>.
+You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrender.com/api-docs/">here</a>. Please note that the app is being hosted on Render and may take around a minute or more to spin up. To run locally, skip <a href="#installation>here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FEATURES -->
+## Features
+
+#### User Authentication:
+- Register a new user with a name, email, and password (hashed using bcrypt).
+- Login with email and password to receive a JSON Web Token (JWT) for authenticated access.
+
+#### Job Management:
+- Create, read, update, and delete job listings.
+- All job-related endpoints require a valid JWT for access.
 
 <!-- USAGE EXAMPLES -->
 ## Usage

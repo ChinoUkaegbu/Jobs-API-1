@@ -72,7 +72,7 @@
 
 [![Jobs API Screen Shot][product-screenshot]](https://jobs-api-1-9fp1.onrender.com)
 
-✨ This is a RESTful API for managing job listings, built using Node.js, Express, and MongoDB. he API provides endpoints for user authentication (register and login) and job management (CRUD operations). It uses JSON Web Tokens (JWT) for secure access to protected endpoints. The project is hosted on Render, and the Swagger UI documentation is available online for testing the endpoints.✨ 
+✨ This is a RESTful API for managing job listings, built using Node.js, Express, and MongoDB. The API provides endpoints for user authentication (register and login) and job management (CRUD operations). It uses JSON Web Tokens (JWT) for secure access to protected endpoints. The project is hosted on Render, and the Swagger UI documentation is available online for testing the endpoints.✨ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -78,11 +78,10 @@ With SongBoard, you can generate a playlist based on 'vibes' - specifically the 
 
 ### Built With
 
-* [![React][React.js]][React-url]
 * [![Node][Node.js]][Node-url]
 * [![Express][Express.js]][Express-url]
-* [![Chakra UI][Chakra.com]][Chakra-url]
-* [![Vercel][Vercel.com]][Vercel-url]
+* [![MongoDB][MongoDB.com]][MongoDB-url]
+* [![Swagger][Swagger.com]][Swagger-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -196,13 +195,11 @@ Project Link: [https://github.com/ChinoUkaegbu/Jobs-API-1](https://github.com/Ch
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/chinonyerem-ukaegbu
 [product-screenshot]: assets_readme/home_page_1.png
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
 [Node.js]: https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
 [Node-url]: https://nodejs.org/en
 [Express.js]: https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white
 [Express-url]: https://expressjs.com/
-[Chakra.com]: https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white
-[Chakra-url]: https://v2.chakra-ui.com/
-[Vercel.com]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
-[Vercel-url]: https://vercel.com/
+[MongoDB.com]: https://www.mongodb.com/
+[MongoDB-url]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
+[Swagger.com]: https://swagger.io/
+[Swagger-url]: https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white

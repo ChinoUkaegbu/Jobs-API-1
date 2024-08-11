@@ -199,7 +199,7 @@ Project Link: [https://github.com/ChinoUkaegbu/Jobs-API-1](https://github.com/Ch
 [Node-url]: https://nodejs.org/en
 [Express.js]: https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white
 [Express-url]: https://expressjs.com/
-[MongoDB.com]: https://www.mongodb.com/
-[MongoDB-url]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
-[Swagger.com]: https://swagger.io/
-[Swagger-url]: https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white
+[MongoDB.com]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
+[MongoDB-url]: https://www.mongodb.com/
+[Swagger.com]: https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white
+[Swagger-url]: https://swagger.io/

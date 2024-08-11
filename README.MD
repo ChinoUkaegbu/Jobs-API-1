@@ -125,11 +125,11 @@ You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrende
 <!-- FEATURES -->
 ## Features
 
-#### User Authentication:
+### User Authentication:
 - Register a new user with a name, email, and password (hashed using bcrypt).
 - Login with email and password to receive a JSON Web Token (JWT) for authenticated access.
 
-#### Job Management:
+### Job Management:
 - Create, read, update, and delete job listings.
 - All job-related endpoints require a valid JWT for access.
 

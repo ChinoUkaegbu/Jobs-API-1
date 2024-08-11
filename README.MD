@@ -143,15 +143,15 @@ Once the server is running, you can use the following endpoints:
 ### Auth Endpoints
 
 - `POST /api/v1/auth/register`: Register a new user and receive a JSON Web Token (JWT).
-- POST /api/v1/auth/login: Login and receive a JWT.
+- `POST /api/v1/auth/login`: Login and receive a JWT.
 
 ### Job Endpoints (Requires JWT)
 
-- GET /api/v1/jobs: Get all jobs for the authenticated user.
-- GET /api/v1/jobs/:id: Get a single job by ID.
-- POST /api/v1/jobs: Create a new job.
-- PATCH /api/v1/jobs/:id: Update an existing job by ID.
-- DELETE /api/v1/jobs/:id: Delete a job by ID.
+- `GET /api/v1/jobs`: Get all jobs for the authenticated user.
+- `GET /api/v1/jobs/:id`: Get a single job by ID.
+- `POST /api/v1/jobs`: Create a new job.
+- `PATCH /api/v1/jobs/:id`: Update an existing job by ID.
+- `DELETE /api/v1/jobs/:id`: Delete a job by ID.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -165,8 +165,8 @@ Once the server is running, you can use the following endpoints:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Save playlists to Spotify
-- [ ] Implement dark mode
+- [ ] Format 'home' page
+- [ ] Add more properties to jobs
 
 See the [open issues](https://github.com/ChinoUkaegbu/Jobs-API-1/issues) for a full list of proposed features (and known issues).
 
@@ -215,8 +215,7 @@ Project Link: [https://github.com/ChinoUkaegbu/Jobs-API-1](https://github.com/Ch
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Chidinma Ukaegbu](https://www.behance.net/chidinma-designer) - for being the first app tester (and the best sister ever)
-* My Twitter oomfs - for letting me yap whenever I ran into an error
+- People who ask questions on Stack Overflow...and people who respond - where would the debugging community be without you 🥹?
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

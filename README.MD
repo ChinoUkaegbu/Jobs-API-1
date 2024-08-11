@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ChinoUkaegbu/Jobs-API-1">
-    <img src="src/assets/logo-vinyl.svg" alt="Logo" width="80" height="80">
+    <img src="/assets_readme/logo-job-seeker.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Jobs API</h3>

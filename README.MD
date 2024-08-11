@@ -93,24 +93,24 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrender.com/api-docs/">here</a>. Please note that the app is being hosted on Render and may take around a minute or more to spin up. To run locally, skip <a href="#installation>here</a>
+You can interact with the API endpoints <a href="https://jobs-api-1-9fp1.onrender.com/api-docs/">here</a>. Please note that the app is being hosted on Render and may take around a minute or more to spin up. To run locally, skip <a href="#installation">here</a>
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/ChinoUkaegbu/Jobs-API-1.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+3. Set up environment variables:
+  Create a .env file in the root of the project with the following variables:
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
-5. Change git remote url to avoid accidental pushes to base project
+4. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes

@@ -21,7 +21,7 @@
 <h3 align="center">Jobs API</h3>
 
   <p align="center">
-    An app that generates a playlist of songs based on the 'vibes' of your Pinterest boards
+    A RESTful API for managing job applications
     <br />
     <a href="https://github.com/ChinoUkaegbu/Jobs-API-1"><strong>Explore the docs »</strong></a>
     <br />
@@ -235,7 +235,7 @@ Project Link: [https://github.com/ChinoUkaegbu/Jobs-API-1](https://github.com/Ch
 [license-url]: https://github.com/ChinoUkaegbu/Jobs-API-1/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/chinonyerem-ukaegbu
-[product-screenshot]: assets_readme/home_page_1.png
+[product-screenshot]: assets_readme/Jobs_API_Documentation.png
 [Node.js]: https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
 [Node-url]: https://nodejs.org/en
 [Express.js]: https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white

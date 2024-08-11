@@ -82,6 +82,7 @@ With SongBoard, you can generate a playlist based on 'vibes' - specifically the 
 * [![Express][Express.js]][Express-url]
 * [![MongoDB][MongoDB.com]][MongoDB-url]
 * [![Swagger][Swagger.com]][Swagger-url]
+* [![Render][Render.com]][Render-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
